@@ -19,4 +19,4 @@ console.log(stringToObject("user=Yogesh&age=27&city=Dehradun"));   //{ user: "Yo
 function stringToObject1(str) {
   return Object.fromEntries(new URLSearchParams(str));
 }
-console.log(stringToObject1("user=Yogesh&age=27&city=Delhi"));
+console.log(stringToObject1("user=Yogesh&age=27&city=Delhi"));  //{ user: 'Yogesh', age: '27', city: 'Delhi' }
